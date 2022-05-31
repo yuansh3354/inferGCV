@@ -4,6 +4,11 @@ As a core of the tumor niche, our understanding of functional programs and the n
 
 Here, we present sceAPA, a transfer learning approach to evaluate anomaly pathway activity (APA) status of cancer cells in scRNA-seq. sceAPA leverages knowledge from RNA-seq, using convolutional neural network to evaluate APA status information in RNA-seq, simultaneously, to embed scRNA-seq to screen each cell’s APA status. In public scRNA-seq datasets of various human cancer types, we demonstrate that sceAPA can catch the weak signals of APA and discover that APA burden index calculated by sceAPA is highly correlated with immune-derived tumor cells in melanoma, lung cancer and colorectal cancer. Collectively, sceAPA provides an innovative approach that focuses on a more comprehensive understanding of the cluster of cancer cells in tumor research.
 > 在这里，我们介绍了sceAPA，一种转移学习方法，用于评估scRNA序列中癌细胞的异常通路活性（APA）状态。sceAPA利用RNA-seq的知识，使用卷积神经网络评估RNA-seq中的APA状态信息，同时嵌入scRNA-seq以筛选每个细胞的APA状态。在各种人类癌症类型的公共scRNA-seq数据集中，我们证明sceAPA可以捕捉APA的微弱信号，并发现sceAPA计算的APA负荷指数与黑色素瘤、肺癌和结直肠癌中的免疫源性肿瘤细胞高度相关。总的来说，sceAPA提供了一种创新方法，专注于更全面地了解肿瘤研究中的癌细胞群。
+
+<div align='center' ><b><font size='150'>Overview of sceAPA</font></b></div>
+  
+<img src="IMG_00001.jpg" width="3000px"/>
+
 ## Pre-requisites:
 
 - Linux (Based on Ubuntu 20.04 LTS, Personal Computer) 
