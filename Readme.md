@@ -11,7 +11,7 @@ Here, we present sceAPA, a transfer learning approach to evaluate anomaly pathwa
 
 ## All ref data 
 
-> LINK: https://pan.baidu.com/s/1BYxLTwn1JeFOH5LD3jt1_w  PWD: i556
+> LINK: https://pan.baidu.com/s/1NOslCiNb6vGIeYSeyYKRow  PWD: i556
 
 ## Pre-requisites:
 
