@@ -1,0 +1,29 @@
+
+# configs of trainning-loop, plz attention this config_file must be in floder named "configs".
+# 训练集使用的配置文件，请务必放在configs文件夹下 
+
+--- 
+
+# training model args
+data_arguments: 
+  work_dir: /media/yuansh/14THHD/scMutation/Cell_Line/ # your scrnaseq working directory, plz attention endwith "/"
+  Counts_expr: BRAF.csv # must .csv row is genesymbol and col is cells
+  use_others: True # if you want to use cell cluseter which is not be annotation.
+  remove_genes: False # remove mt, rp, ercc, LNC, non-coding RNA
+
+# if you input raw count data matrix plz set cell_annotion is True
+# if you input candidate cancer count matrix plz set cell_annotion False
+# you can set your own gene markers.
+cell_annotion: False  
+Marker_genes:
+  T_cell:
+  Fibroblast:
+  Myeloid: 
+  B_cell:
+  Endothelial: 
+  Mast:
+  DC: 
+  Cancer:
+  
+save_files:
+  files: BRAF # output file name
