@@ -5,10 +5,6 @@ It is now widely acknowledged that the adaptive evolutionary process of cancer c
   
 <img src="IMG_00001.jpg" width="3000px"/>
 
-## All ref data 
-
-> LINK: https://pan.baidu.com/s/1NOslCiNb6vGIeYSeyYKRow  PWD: i556
-
 ## Pre-requisites:
 
 - Linux (Based on Ubuntu 20.04 LTS, Personal Computer) 
